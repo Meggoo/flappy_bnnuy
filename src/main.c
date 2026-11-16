@@ -257,7 +257,7 @@ void draw_start_screen(enum State *state, Texture2D *logo, int logoSize, float l
 
 	DrawTextureEx(*logo, logoPosition, 0, logoScale, WHITE);
 
-	char *text = "Flappy Bird";
+	char *text = "Flappy Bnnuy";
 	int fontSize = 30;
 	int textWidth = MeasureText(text, fontSize);
 	int textX = containerX + (containerWidth - textWidth) / 2;
